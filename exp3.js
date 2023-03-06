@@ -10,7 +10,7 @@ function findVowelCharacter(string, arr) {
         }
     }
     if(count > 0) {
-        console.log(`Có ${count} số ký tự nguyên âm`);
+        console.log(`Chuỗi ${string} có ${count} số ký tự nguyên âm`);
     }else {
         console.log('false');
     }
