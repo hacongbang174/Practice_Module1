@@ -21,12 +21,12 @@ class Staff {
         return console.log(`Nhân viên có tên là: ${this.getFullname()} và email : ${this.getEmail()} `);
     }
 }
-let staff = new Staff("David", "david@gmail.com");
-staff.setFullname("David Do");
-staff.setEmail("david.do.@gmail.com");
-staff.toString();
+let david = new Staff("David", "david@gmail.com");
+david.setFullname("David Do");
+david.setEmail("david.do.@gmail.com");
+david.toString();
 let staffs = [
-    new Staff("David", "david@gmail.com"),
+    david,
     new Staff("Kevil", "kevil@gmail.com"),
     new Staff("Rain", "rain@gmail.com")
 ]
