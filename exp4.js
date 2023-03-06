@@ -30,9 +30,9 @@ let staffs = [
     new Staff("Kevil", "kevil@gmail.com"),
     new Staff("Rain", "rain@gmail.com")
 ]
-function displayStaffs() {
+function displayListStaffs() {
     for(let i = 0; i < staffs.length; i++) {
         staffs[i].toString();
     }
 }
-displayStaffs();
+displayListStaffs();
