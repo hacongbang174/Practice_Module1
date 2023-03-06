@@ -1,16 +1,18 @@
-//Bài 2:
+//Bài 2: Xây dựng hàm trả về vị trí phần tử cần tìm trong mảng cho trước
 
+let count = 0;
 let index = 0;
 function findValueInArray(number, array) {
     for (let i = 0; i< array.length; i++) {
         if(number == array[i]) {
-            index +=1;
+            count +=1;
+            index = i;
         }
     }
-    if(index == 0) {
+    if(count == 0) {
         console.log(`Số ${number} vừa nhập không nằm trong mảng đã nhập`);
     }else {
-        console.log(`Số ${number} vừa nhập nằm trong mảng đã nhập`);
+        console.log(`Số ${number} vừa nhập nằm trong mảng đã nhập ở vị trí ${index}`);
     }
 }
 

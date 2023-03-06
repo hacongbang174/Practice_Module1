@@ -1,4 +1,4 @@
-// Bài 3:
+// Bài 3: Viết chương trình nhập vào một chuỗi bất kỳ. Gọi hàm tìm số ký tự nguyên âm vừa xây dựng ở trên.
 
 let count = 0;
 function findVowelCharacter(string, arr) {

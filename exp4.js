@@ -1,4 +1,5 @@
-//Bài4:
+//Bài4: Lập trình hướng đối tượng.
+
 class Staff {
     constructor(fullname, email) {
         this.fullname = fullname;
